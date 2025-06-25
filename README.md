@@ -7,14 +7,23 @@ This project is an automated functional testing framework for the [Automation Te
 ##  Project Structure
 
 ├── pageObjects/ # All Page Object Model classes
+
 ├── testCases/ # TestNG test cases
+
 ├── testBase/ # BaseClass with driver setup & teardown
+
 ├── utilities/ # Data providers, Excel utilities, reporting
+
 ├── testdata/ # Excel file for data-driven testing
+
 ├── reports/ # ExtentReports output
+
 ├── screenshots/ # Captured screenshots on test failures
+
 ├── config.properties # Configuration for environment, browser, app URL
+
 ├── master.xml # TestNG suite file
+
 ├── pom.xml # Maven dependencies and plugins
 
 
@@ -66,8 +75,11 @@ cd ecommerce-testing-assignment
 Edit the config.properties file:
 
 execution_env=local      # or 'remote'
+
 browser=chrome           # chrome | firefox | edge
+
 os=windows               # windows | linux | mac
+
 appURL=https://automationteststore.com/
 
 ## 4. Run the Tests
