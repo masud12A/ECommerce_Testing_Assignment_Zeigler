@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-25T13:00:03 IST" name="Suite" finished-at="2025-06-25T13:00:40 IST" duration-ms="37181">
+    <groups>
+    </groups>
+    <test started-at="2025-06-25T13:00:03 IST" name="E-Commerce Functional Test" finished-at="2025-06-25T13:00:40 IST" duration-ms="37181">
+      <class name="testCases.ECommerceTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.ECommerceTests@41d477ed]" started-at="2025-06-25T13:00:03 IST" name="setup" finished-at="2025-06-25T13:00:08 IST" duration-ms="5406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomeAndCategory()[pri:1, instance:testCases.ECommerceTests@41d477ed]" started-at="2025-06-25T13:00:08 IST" name="verifyHomeAndCategory" finished-at="2025-06-25T13:00:11 IST" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeAndCategory -->
+        <test-method signature="selectAndAddProductsToCart()[pri:2, instance:testCases.ECommerceTests@41d477ed]" started-at="2025-06-25T13:00:11 IST" name="selectAndAddProductsToCart" finished-at="2025-06-25T13:00:28 IST" duration-ms="17089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAndAddProductsToCart -->
+        <test-method signature="verifyCartAndCheckout()[pri:3, instance:testCases.ECommerceTests@41d477ed]" started-at="2025-06-25T13:00:28 IST" name="verifyCartAndCheckout" finished-at="2025-06-25T13:00:31 IST" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartAndCheckout -->
+        <test-method signature="registrationNegativeScenario(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.ECommerceTests@41d477ed]" started-at="2025-06-25T13:00:34 IST" name="registrationNegativeScenario" data-provider="Data" finished-at="2025-06-25T13:00:40 IST" duration-ms="6148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john.doe@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ECommerceTests@41d477ed]" started-at="2025-06-25T13:00:40 IST" name="tearDown" finished-at="2025-06-25T13:00:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ECommerceTests -->
+    </test> <!-- E-Commerce Functional Test -->
+  </suite> <!-- Suite -->
+</testng-results>

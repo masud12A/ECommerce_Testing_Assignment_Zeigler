@@ -1,0 +1,2 @@
+Product 1 is out of stock or missing Add to Cart button.
+Validation failed as expected for: John, john.doe@example.com Screenshot saved at: C:\Users\ahame\eclipse-workspace\ECommerce_Testing_Assignmen\screenshots\ValidationError_20250625013954.png
