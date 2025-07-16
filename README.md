@@ -67,7 +67,7 @@ This project is an automated functional testing framework for the [Automation Te
 
 ### 2. Clone the Repository
 
-git clone https://github.com/masud12A/ecommerce-testing-assignment.git
+git clone https://github.com/masud12A/ECommerce_Testing_Assignment_Zeigler.git
 cd ecommerce-testing-assignment
 
 
